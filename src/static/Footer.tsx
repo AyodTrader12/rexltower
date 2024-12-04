@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <div className="w-full h-[70vh] bg-[#182424] flex justify-center">
         <div className="w-[75%] h-full ">
-          <div className="w-full h-[75%]  flex gap-24">
+          <div className="w-full h-[75%]  flex gap-24x">
             <div className="w-[50%] h-full ">
               <div className="mb-7">
                 <img src={pix} alt="img" className="pt-10 w-[30%] h-[30%]" />
