@@ -166,7 +166,7 @@ const LandingPage = () => {
               ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantiue.
             </p>
-            <button className="bg-[#d29751] text-white rounded-3xl w-[180px] h-[50px] font-semibold">
+            <button className="bg-[#d29751] text-white rounded-3xl w-[180px] h-[50px] font-semiboldj">
               Get started
             </button>
           </div>
@@ -259,7 +259,7 @@ const LandingPage = () => {
             </div>
             <p className="font-semibold text-[40px] mt-2">Price:</p>
             <p className="font-mono text-[40px] mb-3">$1,786.80</p>
-            <button className="text-white bg-[#d29751] w-[180px] h-[50px] rounded-3xl">
+            <button className="text-white bg-[#d29751] w-[180px] h-[50px] rounded-3xl hover:bg-slate-950 transition-all duration-300">
               Contact Us
             </button>
           </div>
@@ -531,7 +531,7 @@ const LandingPage = () => {
                 <div className="w-full h-[10%] mb-7">
                   <div className="w-full h-full shadow-md bg-white flex gap-1 items-center">
                     <input
-                      placeholder="I would lile to discuss"
+                      placeholder="I would like to discuss"
                       className="pl-7 w-[870px] h-full border-none outline-none"
                     />
                     <span>
@@ -541,19 +541,19 @@ const LandingPage = () => {
                 </div>
                 <div className="w-full h-[30%] mb-10">
                   <div
-                    className="w-full h-full shadow-md bg-white flex gap-1 items-center
+                    className="w-full h-full shadow-md bg-white flex gap-1 
                   "
                   >
-                    <input
+                    <textarea
                       placeholder="Write Comment"
                       className="pl-7 w-[870px] h-full border-none outline-none "
                     />
                     <span>
-                      <LuPencil className="text-[#d29751] mr-4" />
+                      <LuPencil className="text-[#d29751] mr-4 mt-4" />
                     </span>
                   </div>
                 </div>
-                <button className="rounded-full text-white bg-[#d29751] h-[50px] w-[200px] font-semibold">
+                <button className="rounded-full text-white bg-[#d29751] h-[50px] w-[200px] font-semibold hover:bg-slate-900 transition-all duration-300">
                   Send Message
                 </button>
               </div>
